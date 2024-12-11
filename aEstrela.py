@@ -2,7 +2,7 @@ import heapq
 from jogoDosOito import JogoDosOito
 
 
-class AStar(JogoDosOito):
+class aEstrela(JogoDosOito):
     def __init__(self):
         super().__init__()
         self.estado_final = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
@@ -68,7 +68,7 @@ class AStar(JogoDosOito):
 
         return None
 
-jogo = AStar()
+jogo = aEstrela()
 
 print("Tabuleiro inicial gerado aleatoriamente (resolvível):")
 jogo.mostrar_tabuleiro()
